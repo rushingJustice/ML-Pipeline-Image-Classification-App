@@ -39,9 +39,7 @@ def upload_image():
 #Specific for model
 
 def load_model():
- 	# load the pre-trained Keras model (here we are using a model
- 	# pre-trained on ImageNet and provided by Keras, but you can
- 	# substitute in your own networks just as easily)
+ 	# load the pre-trained Keras model
  	global model
  	model = ResNet50(weights="imagenet")
  	global graph
