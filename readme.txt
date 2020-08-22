@@ -1,11 +1,2 @@
-Computer Vision <> Online App Example
-1. State Farm kaggle competition
-2. re-download driver images
-3. Do resnet 50 from Keras (see example from predict_dog Medium article)
-4. Containerize app in either dockeerhub or gci. 
-5. App UI: Input image of driver, get prediction. Will need to research how to upload image.
-6. Expose to internet
-
-
-curl -X POST -F image=@dog.jpg "http://localhost:5000/predict"
+Using Keras suite of NN for image classification, this app showcases how to apply a pre-trained model to any uploaded image. The app is also containerized, and instructions for how to expose to the internet are provided in the notebook.
 
